@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>施設向け申し込みフォーム｜メディフットケア</title>
+  <meta name="description" content="メディフットケアへの施設向けお申し込み・体験会のお申し込みはこちら。施設への訪問フットケア導入をご検討の方はお気軽にどうぞ。">
+  <meta property="og:title" content="施設向け申し込みフォーム｜メディフットケア">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="../../index.html" class="header__logo">
+        <img src="../../images/logo.png" alt="メディフットケア" class="header__logo-img">
+      </a>
+      <nav class="nav" aria-label="グローバルナビゲーション">
+        <ul style="display:flex; list-style:none; gap:0; align-items:center;">
+          <li class="nav__item">
+            <a href="../personal/services.html" class="nav__link">個人の方へ <span class="nav__arrow">▾</span></a>
+            <div class="dropdown">
+              <a href="../personal/services.html" class="dropdown__link">サービス内容</a>
+              <a href="../personal/flow.html" class="dropdown__link">ご利用の流れ</a>
+              <a href="../personal/pricing.html" class="dropdown__link">料金案内</a>
+              <a href="../personal/cases.html" class="dropdown__link">よくある症例</a>
+              <a href="../personal/family.html" class="dropdown__link">ご家族の方へ</a>
+            </div>
+          </li>
+          <li class="nav__item">
+            <a href="services.html" class="nav__link">施設の方へ <span class="nav__arrow">▾</span></a>
+            <div class="dropdown">
+              <a href="services.html" class="dropdown__link">サービス内容</a>
+              <a href="flow.html" class="dropdown__link">導入の流れ</a>
+              <a href="trial.html" class="dropdown__link">体験会について</a>
+              <a href="../personal/pricing.html#facility" class="dropdown__link">料金・費用</a>
+            </div>
+          </li>
+          <li class="nav__item"><a href="../faq.html" class="nav__link">よくある質問</a></li>
+          <li class="nav__item"><a href="../contact.html" class="nav__link">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <a href="../personal/apply.html" class="btn btn--accent header__cta">今すぐ申し込む</a>
+      <button class="hamburger" aria-label="メニューを開く" aria-expanded="false">
+        <span class="hamburger__line"></span><span class="hamburger__line"></span><span class="hamburger__line"></span>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu__section">
+    <p class="mobile-menu__label">個人の方へ</p>
+    <a href="../personal/services.html" class="mobile-menu__link">サービス内容</a>
+    <a href="../personal/flow.html" class="mobile-menu__link">ご利用の流れ</a>
+    <a href="../personal/pricing.html" class="mobile-menu__link">料金案内</a>
+    <a href="../personal/cases.html" class="mobile-menu__link">よくある症例</a>
+    <a href="../personal/family.html" class="mobile-menu__link">ご家族の方へ</a>
+  </div>
+  <div class="mobile-menu__section">
+    <p class="mobile-menu__label">施設の方へ</p>
+    <a href="services.html" class="mobile-menu__link">サービス内容</a>
+    <a href="flow.html" class="mobile-menu__link">導入の流れ</a>
+    <a href="trial.html" class="mobile-menu__link">体験会について</a>
+    <a href="../personal/pricing.html#facility" class="mobile-menu__link">料金・費用</a>
+  </div>
+  <div class="mobile-menu__section">
+    <p class="mobile-menu__label">サポート</p>
+    <a href="../faq.html" class="mobile-menu__link">よくある質問</a>
+    <a href="../contact.html" class="mobile-menu__link">お問い合わせ</a>
+  </div>
+  <div class="mobile-menu__cta">
+    <a href="../personal/apply.html" class="btn btn--accent btn--full" style="margin-bottom:0.75rem;">個人の方はこちら</a>
+    <a href="apply.html" class="btn btn--outline btn--full">施設担当者の方はこちら</a>
+  </div>
+</div>
+
+<div class="page-header">
+  <div class="container">    <h1 class="page-header__title">施設向けお申し込み・体験会申込みフォーム</h1>
+    <p class="page-header__subtitle">フォームご送信後、担当スタッフより折り返しご連絡いたします</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+
+    <div style="background:var(--color-primary-light); border-radius:1rem; padding:1.25rem; max-width:640px; margin:0 auto 2rem;">
+      <p style="font-size:0.875rem; color:var(--color-primary-dark); font-weight:700; margin-bottom:0.5rem;">まずは体験会からでもお気軽にどうぞ</p>
+      <p style="font-size:0.875rem; color:var(--color-text-light);">体験会だけのお申し込みも歓迎しています。継続導入は体験後にご検討いただけます。</p>
+    </div>
+
+    <div class="form">
+      <form
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="POST"
+        data-validate
+      >
+        <input type="text" name="_gotcha" class="honeypot" tabindex="-1" autocomplete="off">
+        <input type="hidden" name="_next" value="../thank-you.html">
+        <input type="hidden" name="_subject" value="【メディフットケア】施設向けお申し込みがありました">
+        <input type="hidden" name="form_type" value="施設向け申し込み">
+
+        <div class="form__group">
+          <label class="form__label" for="facility_name">
+            施設名
+            <span class="form__required">必須</span>
+          </label>
+          <input type="text" id="facility_name" name="facility_name" class="form__input" placeholder="例：〇〇特別養護老人ホーム" required>
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="contact_name">
+            担当者名
+            <span class="form__required">必須</span>
+          </label>
+          <input type="text" id="contact_name" name="contact_name" class="form__input" placeholder="例：田中 一郎" required autocomplete="name">
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="position">役職</label>
+          <input type="text" id="position" name="position" class="form__input" placeholder="例：施設長・介護主任 など">
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="tel">
+            電話番号
+            <span class="form__required">必須</span>
+          </label>
+          <input type="tel" id="tel" name="tel" class="form__input" placeholder="例：03-0000-0000" required autocomplete="tel">
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="email">
+            メールアドレス
+            <span class="form__required">必須</span>
+          </label>
+          <input type="email" id="email" name="email" class="form__input" placeholder="例：info@facility.com" required autocomplete="email">
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="location">
+            施設の所在地
+            <span class="form__required">必須</span>
+          </label>
+          <input type="text" id="location" name="location" class="form__input" placeholder="例：○○県○○市○○区1-2-3" required>
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="consultation">ご相談内容</label>
+          <textarea id="consultation" name="consultation" class="form__textarea" placeholder="サービス内容・導入の経緯・現在の困りごとなど、自由にご記入ください"></textarea>
+        </div>
+
+        <div class="form__group">
+          <div class="form__label">体験会の希望</div>
+          <div class="form__checkboxes" style="flex-direction:row; flex-wrap:wrap; margin-top:0.5rem;">
+            <label class="form__checkbox-item">
+              <input type="radio" name="trial_desired" value="はい（体験会を希望する）" checked>
+              <span>はい（体験会を希望する）</span>
+            </label>
+            <label class="form__checkbox-item">
+              <input type="radio" name="trial_desired" value="いいえ（継続導入から検討）">
+              <span>いいえ（継続導入から検討）</span>
+            </label>
+            <label class="form__checkbox-item">
+              <input type="radio" name="trial_desired" value="検討中">
+              <span>検討中</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form__group">
+          <label class="form__label" for="target_count">対象人数の目安</label>
+          <select id="target_count" name="target_count" class="form__select">
+            <option value="">選択してください</option>
+            <option value="〜5名">〜5名</option>
+            <option value="6〜10名">6〜10名</option>
+            <option value="11〜20名">11〜20名</option>
+            <option value="21名以上">21名以上</option>
+            <option value="未定">未定・相談したい</option>
+          </select>
+        </div>
+
+        <div class="form__group">
+          <div class="form__privacy">
+            <label class="form__checkbox-item">
+              <input type="checkbox" name="privacy" required>
+              <span><a href="../privacy.html" target="_blank" style="color:var(--color-primary);">プライバシーポリシー</a>を確認し、個人情報の取り扱いに同意します</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="form__submit">
+          <button type="submit" class="btn btn--accent btn--lg btn--full">申し込む・相談する</button>
+          <p style="font-size:0.8125rem; color:var(--color-text-light); margin-top:0.75rem;">送信後、1〜2営業日以内にご連絡いたします</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand-name">🦶 メディフットケア</div>
+        <p class="footer__brand-desc">施設・ご自宅に伺う高齢者専門の訪問フットケアサービスです。</p>
+        <div style="margin-top:1rem;">
+          <!-- AREA_START: ここを更新してください -->
+          <p class="footer__area">【主な対応エリア】○○市・○○市・○○市・○○市</p>
+          <p class="footer__area">その他のエリアもお気軽にご相談ください。</p>
+          <!-- AREA_END -->
+        </div>
+      </div>
+      <div>
+        <h3 class="footer__section-title">個人の方へ</h3>
+        <div class="footer__links">
+          <a href="../personal/services.html" class="footer__link">サービス内容</a>
+          <a href="../personal/flow.html" class="footer__link">ご利用の流れ</a>
+          <a href="../personal/pricing.html" class="footer__link">料金案内</a>
+          <a href="../personal/cases.html" class="footer__link">よくある症例</a>
+          <a href="../personal/family.html" class="footer__link">ご家族の方へ</a>
+          <a href="../personal/apply.html" class="footer__link">申し込む</a>
+        </div>
+      </div>
+      <div>
+        <h3 class="footer__section-title">施設の方へ</h3>
+        <div class="footer__links">
+          <a href="services.html" class="footer__link">サービス内容</a>
+          <a href="flow.html" class="footer__link">導入の流れ</a>
+          <a href="trial.html" class="footer__link">体験会について</a>
+          <a href="apply.html" class="footer__link">体験会を申し込む</a>
+        </div>
+        <h3 class="footer__section-title" style="margin-top:1.5rem;">サポート</h3>
+        <div class="footer__links">
+          <a href="../faq.html" class="footer__link">よくある質問</a>
+          <a href="../contact.html" class="footer__link">お問い合わせ</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="footer__copyright">&copy; 2025 メディフットケア All Rights Reserved.</p>
+      <div class="footer__bottom-links">
+        <a href="../privacy.html" class="footer__bottom-link">プライバシーポリシー</a>
+        <a href="../contact.html" class="footer__bottom-link">お問い合わせ</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="../../js/main.js"></script>
+</body>
+</html>

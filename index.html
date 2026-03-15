@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>メディフットケア</title>
+  <meta name="description" content="メディフットケアは、施設・ご自宅に伺う高齢者専門のフットケアサービスです。巻き爪・肥厚爪・角質ケアをプロのスタッフが丁寧にケアします。">
+  <meta property="og:title" content="メディフットケア">
+  <meta property="og:description" content="大切な家族の足を、プロが丁寧にケアします。施設・ご自宅どちらにも訪問。高齢者専門のフットケアサービスです。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/ogp.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ===== ヘッダー ===== -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="index.html" class="header__logo">
+          <img src="images/logo.png" alt="メディフットケア" class="header__logo-img">
+        </a>
+
+        <nav class="nav" aria-label="グローバルナビゲーション">
+          <ul style="display:flex; list-style:none; gap:0; align-items:center;">
+            <li class="nav__item">
+              <a href="html/personal/services.html" class="nav__link">
+                個人の方へ <span class="nav__arrow">▾</span>
+              </a>
+              <div class="dropdown">
+                <a href="html/personal/services.html" class="dropdown__link">サービス内容</a>
+                <a href="html/personal/flow.html" class="dropdown__link">ご利用の流れ</a>
+                <a href="html/personal/pricing.html" class="dropdown__link">料金案内</a>
+                <a href="html/personal/cases.html" class="dropdown__link">よくある症例</a>
+                <a href="html/personal/family.html" class="dropdown__link">ご家族の方へ</a>
+              </div>
+            </li>
+            <li class="nav__item">
+              <a href="html/facility/services.html" class="nav__link">
+                施設の方へ <span class="nav__arrow">▾</span>
+              </a>
+              <div class="dropdown">
+                <a href="html/facility/services.html" class="dropdown__link">サービス内容</a>
+                <a href="html/facility/flow.html" class="dropdown__link">導入の流れ</a>
+                <a href="html/facility/trial.html" class="dropdown__link">体験会について</a>
+                <a href="html/personal/pricing.html#facility" class="dropdown__link">料金・費用</a>
+              </div>
+            </li>
+            <li class="nav__item">
+              <a href="html/faq.html" class="nav__link">よくある質問</a>
+            </li>
+            <li class="nav__item">
+              <a href="html/contact.html" class="nav__link">お問い合わせ</a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="html/personal/apply.html" class="btn btn--accent header__cta">今すぐ申し込む</a>
+
+        <button class="hamburger" aria-label="メニューを開く" aria-expanded="false">
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- モバイルメニュー -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu__section">
+      <p class="mobile-menu__label">個人の方へ</p>
+      <a href="html/personal/services.html" class="mobile-menu__link">サービス内容</a>
+      <a href="html/personal/flow.html" class="mobile-menu__link">ご利用の流れ</a>
+      <a href="html/personal/pricing.html" class="mobile-menu__link">料金案内</a>
+      <a href="html/personal/cases.html" class="mobile-menu__link">よくある症例</a>
+      <a href="html/personal/family.html" class="mobile-menu__link">ご家族の方へ</a>
+    </div>
+    <div class="mobile-menu__section">
+      <p class="mobile-menu__label">施設の方へ</p>
+      <a href="html/facility/services.html" class="mobile-menu__link">サービス内容</a>
+      <a href="html/facility/flow.html" class="mobile-menu__link">導入の流れ</a>
+      <a href="html/facility/trial.html" class="mobile-menu__link">体験会について</a>
+      <a href="html/personal/pricing.html#facility" class="mobile-menu__link">料金・費用</a>
+    </div>
+    <div class="mobile-menu__section">
+      <p class="mobile-menu__label">サポート</p>
+      <a href="html/faq.html" class="mobile-menu__link">よくある質問</a>
+      <a href="html/contact.html" class="mobile-menu__link">お問い合わせ</a>
+      <a href="html/privacy.html" class="mobile-menu__link">プライバシーポリシー</a>
+    </div>
+    <div class="mobile-menu__cta">
+      <a href="html/personal/apply.html" class="btn btn--accent btn--full" style="margin-bottom:0.75rem;">個人の方はこちら</a>
+      <a href="html/facility/apply.html" class="btn btn--outline btn--full">施設担当者の方はこちら</a>
+    </div>
+  </div>
+
+  <!-- ===== ヒーローセクション ===== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <div class="hero__content">
+
+          <h1 class="hero__title">
+            大切な家族の足を、<br>
+            <span>プロが丁寧に</span><br>
+            ケアします
+          </h1>
+          <p class="hero__subtitle">
+            施設・ご自宅どちらにも訪問。<br>
+            高齢者専門のフットケアサービスです。
+          </p>
+          <div class="btn-group">
+            <a href="html/personal/apply.html" class="btn btn--accent btn--lg">個人のお客様はこちら</a>
+            <a href="html/facility/apply.html" class="btn btn--outline btn--lg">施設担当者の方はこちら</a>
+          </div>
+        </div>
+        <div class="hero__image">
+          <img src="images/看護師.png" alt="フットケアスタッフのイメージ" class="hero__img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 3つの安心ポイント ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-lead">
+        <h2 class="section-title section-title--center">選ばれる3つの理由</h2>
+        <p class="section-subtitle section-subtitle--center">高齢者の足のお悩みに、専門スタッフが丁寧に対応します</p>
+      </div>
+      <div class="grid grid--3">
+        <div class="card fade-in">
+          <div class="card__icon">🏠</div>
+          <h3 class="card__title">施設・ご自宅に訪問</h3>
+          <p class="card__text">外出が難しい方にも安心。ご自宅や入居施設まで専門スタッフが伺います。移動の負担なく、リラックスした環境でケアを受けていただけます。</p>
+        </div>
+        <div class="card fade-in fade-in-delay-1">
+          <div class="card__icon">👩‍⚕️</div>
+          <h3 class="card__title">専門スタッフが担当</h3>
+          <p class="card__text">フットケアの専門知識を持つスタッフが担当。高齢者の足の特性を理解した、安全で丁寧なケアを提供します。</p>
+        </div>
+        <div class="card fade-in fade-in-delay-2">
+          <div class="card__icon">💚</div>
+          <h3 class="card__title">医療的すぎない温かいケア</h3>
+          <p class="card__text">病院のような緊張感なく、リラクゼーション感覚でお受けいただけます。お話しながら、ゆったりとしたケアの時間をお過ごしください。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 対象となる症状 ===== -->
+  <section class="section section--soft">
+    <div class="container">
+      <div class="section-lead">
+        <h2 class="section-title section-title--center">こんなお悩みに対応します</h2>
+        <p class="section-subtitle section-subtitle--center">「病院に行くほどでも…」というお悩みもお任せください</p>
+      </div>
+      <div class="grid grid--4">
+        <div class="card card--flat fade-in" style="text-align:center;">
+          <div style="font-size:2.5rem; margin-bottom:0.75rem;">🌀</div>
+          <h3 class="card__title">巻き爪</h3>
+          <p class="card__text">爪が巻いて痛い、靴を履くのが辛い方へ</p>
+        </div>
+        <div class="card card--flat fade-in fade-in-delay-1" style="text-align:center;">
+          <div style="font-size:2.5rem; margin-bottom:0.75rem;">🦶</div>
+          <h3 class="card__title">肥厚爪</h3>
+          <p class="card__text">爪が厚くなって自分では切れない方へ</p>
+        </div>
+        <div class="card card--flat fade-in fade-in-delay-2" style="text-align:center;">
+          <div style="font-size:2.5rem; margin-bottom:0.75rem;">✨</div>
+          <h3 class="card__title">角質・タコ</h3>
+          <p class="card__text">足裏の硬さ・タコで歩くのが辛い方へ</p>
+        </div>
+        <div class="card card--flat fade-in fade-in-delay-3" style="text-align:center;">
+          <div style="font-size:2.5rem; margin-bottom:0.75rem;">✂️</div>
+          <h3 class="card__title">爪が切れない</h3>
+          <p class="card__text">視力や腰痛で爪のお手入れが難しい方へ</p>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:2rem;">
+        <a href="html/personal/cases.html" class="btn btn--outline">症例をもっと見る</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 個人・施設向けサービス（タブ） ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-lead">
+        <h2 class="section-title section-title--center">サービスのご案内</h2>
+      </div>
+      <div class="tabs">
+        <div class="tabs__nav" style="max-width:480px; margin:0 auto 2rem;">
+          <button class="tabs__btn active" type="button">👤 個人のお客様</button>
+          <button class="tabs__btn" type="button">🏥 施設担当者様</button>
+        </div>
+
+        <div class="tabs__panel active">
+          <div class="grid grid--2" style="align-items:start;">
+            <div>
+              <h3 style="font-size:1.25rem; font-weight:700; margin-bottom:1rem; color:var(--color-primary-dark);">
+                個人向け訪問フットケア</h3>
+              <p style="color:var(--color-text-light); line-height:1.9; margin-bottom:1.5rem;">
+                ご高齢の方やそのご家族に向け、ご自宅へ伺ってフットケアを行います。外出が困難な方、病院に行くほどではないけれど気になっている方にも安心してご利用いただけます。
+              </p>
+              <div class="check-list">
+                <div class="check-list__item">
+                  <div class="check-list__item-icon">✓</div>
+                  <div class="check-list__item-text">足爪のカット・形を整えるケア</div>
+                </div>
+                <div class="check-list__item">
+                  <div class="check-list__item-icon">✓</div>
+                  <div class="check-list__item-text">巻き爪のケアとアドバイス</div>
+                </div>
+                <div class="check-list__item">
+                  <div class="check-list__item-icon">✓</div>
+                  <div class="check-list__item-text">足裏の角質・タコのケア</div>
+                </div>
+                <div class="check-list__item">
+                  <div class="check-list__item-icon">✓</div>
+                  <div class="check-list__item-text">保湿ケアとセルフケアのアドバイス</div>
+                </div>
+              </div>
+              <div style="margin-top:1.5rem;" class="btn-group">
+                <a href="html/personal/services.html" class="btn btn--primary">詳しく見る</a>
+                <a href="html/personal/apply.html" class="btn btn--accent">申し込む</a>
+              </div>
+            </div>
+            <div>
+              <div class="img-placeholder img-placeholder--md">
+                <div class="img-placeholder__icon">🦶</div>
+                <p class="img-placeholder__text">個人向けサービスイメージ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tabs__panel">
+          <div class="grid grid--2" style="align-items:start;">
+            <div>
+              <h3 style="font-size:1.25rem; font-weight:700; margin-bottom:1rem; color:var(--color-primary-dark);">
+                施設向け訪問フットケア</h3>
+              <p style="color:var(--color-text-light); line-height:1.9; margin-bottom:1.5rem;">
+                特別養護老人ホーム・デイサービス・サービス付き高齢者向け住宅など、各種施設への定期訪問に対応します。まずは体験会から気軽にお試しいただけます。
+              </p>
+              <div class="check-list">
+                <div class="check-list__item">
+                  <div class="check-list__item-icon">✓</div>
+                  <div class="check-list__item-text">施設への定期訪問サービス</div>
+                </div>
+                <div class="check-list__item">
+                  <div class="check-list__item-icon">✓</div>
+                  <div class="check-list__item-text">複数名の効率的なケア対応</div>
+                </div>
+                <div class="check-list__item">
+                  <div class="check-list__item-icon">✓</div>
+                  <div class="check-list__item-text">ケア後の報告書作成</div>
+                </div>
+                <div class="check-list__item">
+                  <div class="check-list__item-icon">✓</div>
+                  <div class="check-list__item-text">まずは体験会からOK</div>
+                </div>
+              </div>
+              <div style="margin-top:1.5rem;" class="btn-group">
+                <a href="html/facility/services.html" class="btn btn--primary">詳しく見る</a>
+                <a href="html/facility/apply.html" class="btn btn--accent">体験会を申し込む</a>
+              </div>
+            </div>
+            <div>
+              <div class="img-placeholder img-placeholder--md">
+                <div class="img-placeholder__icon">🏥</div>
+                <p class="img-placeholder__text">施設向けサービスイメージ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ご利用の流れ（簡略版） ===== -->
+  <section class="section section--soft">
+    <div class="container">
+      <div class="section-lead">
+        <h2 class="section-title section-title--center">はじめてでも3ステップで簡単</h2>
+      </div>
+      <div style="max-width:600px; margin:0 auto;">
+        <div class="steps">
+          <div class="step fade-in">
+            <div class="step__number">
+              <div class="step__circle">1</div>
+            </div>
+            <div class="step__body">
+              <h3 class="step__title">お申し込み・お問い合わせ</h3>
+              <p class="step__text">フォームまたはお電話でお気軽にご連絡ください。お悩みやご要望をお聞きします。</p>
+            </div>
+          </div>
+          <div class="step fade-in fade-in-delay-1">
+            <div class="step__number">
+              <div class="step__circle">2</div>
+            </div>
+            <div class="step__body">
+              <h3 class="step__title">日程のご相談・確定</h3>
+              <p class="step__text">ご都合の良い日時をご相談の上、訪問日時を確定します。初回はご要望をじっくりとお聞きします。</p>
+            </div>
+          </div>
+          <div class="step fade-in fade-in-delay-2">
+            <div class="step__number">
+              <div class="step__circle">3</div>
+            </div>
+            <div class="step__body">
+              <h3 class="step__title">訪問・ケア実施</h3>
+              <p class="step__text">専門スタッフが施設・ご自宅へ伺い、丁寧にフットケアを行います。ケア後にアドバイスもお伝えします。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:2rem;" class="btn-group btn-group--center">
+        <a href="html/personal/flow.html" class="btn btn--outline">個人の方の詳しい流れ</a>
+        <a href="html/facility/flow.html" class="btn btn--outline">施設向けの詳しい流れ</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== よくある質問（上位3件） ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-lead">
+        <h2 class="section-title section-title--center">よくある質問</h2>
+      </div>
+      <div class="accordion" style="max-width:720px; margin:0 auto;">
+        <div class="accordion__item fade-in">
+          <button class="accordion__trigger" type="button">
+            <div class="accordion__q">
+              <span class="accordion__q-label">Q</span>
+              <span>どんな人が対象ですか？</span>
+            </div>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__content">
+            <div class="accordion__body">
+              <div class="accordion__body-inner">
+                <span class="accordion__a-label">A</span>
+                <span>主にご高齢の方（60代以上）やその介護をされているご家族を対象としています。足腰の痛みや視力低下などで自分での爪切りが難しい方、巻き爪・肥厚爪などでお悩みの方はどなたでもご相談ください。</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion__item fade-in fade-in-delay-1">
+          <button class="accordion__trigger" type="button">
+            <div class="accordion__q">
+              <span class="accordion__q-label">Q</span>
+              <span>1回だけでも依頼できますか？</span>
+            </div>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__content">
+            <div class="accordion__body">
+              <div class="accordion__body-inner">
+                <span class="accordion__a-label">A</span>
+                <span>はい、1回からご依頼いただけます。「まず試してみたい」という方もお気軽にどうぞ。定期的なケアをご希望の場合は、継続プランもご相談いただけます。</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion__item fade-in fade-in-delay-2">
+          <button class="accordion__trigger" type="button">
+            <div class="accordion__q">
+              <span class="accordion__q-label">Q</span>
+              <span>料金はどのくらいですか？</span>
+            </div>
+            <span class="accordion__icon">+</span>
+          </button>
+          <div class="accordion__content">
+            <div class="accordion__body">
+              <div class="accordion__body-inner">
+                <span class="accordion__a-label">A</span>
+                <span>足爪ケア（両足）¥4,000〜、角質ケア¥3,000〜、巻き爪ケア¥5,000〜が目安です。状態によって異なる場合があります。詳しくは料金ページをご覧ください。</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:2rem;">
+        <a href="html/faq.html" class="btn btn--outline">すべての質問を見る</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 対応エリア ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-lead">
+        <h2 class="section-title section-title--center">訪問対応エリア</h2>
+        <p class="section-subtitle section-subtitle--center">対応エリアは順次拡大中です。お気軽にご相談ください。</p>
+      </div>
+
+      <div class="area-selector">
+        <!-- 左パネル：都道府県 -->
+        <!-- AREA_PREF_START: 都道府県を追加する場合はここに area-pref__btn を追加してください -->
+        <div class="area-pref">
+          <button class="area-pref__btn area-pref__btn--active" data-pref="chiba">千葉県</button>
+        </div>
+        <!-- AREA_PREF_END -->
+
+        <!-- 矢印 -->
+        <!-- 右パネル：市区町村 -->
+        <div class="area-cities">
+          <!-- AREA_CITIES_START: 市区町村を追加・変更する場合はここを更新してください -->
+          <div class="area-cities__group" data-pref="chiba">
+            <span class="area-city">八千代市</span>
+            <span class="area-city">佐倉市</span>
+            <span class="area-city">印西市</span>
+            <span class="area-city">四街道市</span>
+          </div>
+          <!-- AREA_CITIES_END -->
+        </div>
+      </div>
+
+      <div style="max-width:720px; margin:2rem auto 0;">
+        <a href="html/contact.html" class="btn-more">
+          エリアについて問い合わせる
+          <span class="btn-more__icon">›</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 申込みCTA ===== -->
+  <section class="cta-section">
+    <div class="container">
+      <p class="cta-section__lead">メディフットケアが責任をもってご対応いたします</p>
+      <p class="section-subtitle">
+        サービス内容や対応エリアについてのご質問は、お気軽にご相談ください。
+      </p>
+      <div class="cta-section__buttons cta-section__buttons--center">
+        <a href="html/contact.html" class="cta-section__btn cta-section__btn--blue">
+          お問い合わせ・ご相談 <span class="cta-section__btn-arrow">›</span>
+        </a>
+        <a href="html/personal/apply.html" class="cta-section__btn cta-section__btn--green">
+          LINEで相談する <span class="cta-section__btn-arrow">›</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== フッター ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="footer__logo">
+            <img src="images/logo.png" alt="メディフットケア" class="footer__logo-img">
+          </a>
+          <p class="footer__brand-desc">
+            施設・ご自宅に伺う高齢者専門の訪問フットケアサービスです。巻き爪・肥厚爪・角質ケアをプロのスタッフが丁寧にケアします。
+          </p>
+        </div>
+        <div>
+          <h3 class="footer__section-title">個人の方へ</h3>
+          <div class="footer__links">
+            <a href="html/personal/services.html" class="footer__link">サービス内容</a>
+            <a href="html/personal/flow.html" class="footer__link">ご利用の流れ</a>
+            <a href="html/personal/pricing.html" class="footer__link">料金案内</a>
+            <a href="html/personal/cases.html" class="footer__link">よくある症例</a>
+            <a href="html/personal/family.html" class="footer__link">ご家族の方へ</a>
+            <a href="html/personal/apply.html" class="footer__link">申し込む</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="footer__section-title">施設の方へ</h3>
+          <div class="footer__links">
+            <a href="html/facility/services.html" class="footer__link">サービス内容</a>
+            <a href="html/facility/flow.html" class="footer__link">導入の流れ</a>
+            <a href="html/facility/trial.html" class="footer__link">体験会について</a>
+            <a href="html/personal/pricing.html#facility" class="footer__link">料金・費用</a>
+            <a href="html/facility/apply.html" class="footer__link">体験会を申し込む</a>
+          </div>
+          <h3 class="footer__section-title" style="margin-top:1.5rem;">サポート</h3>
+          <div class="footer__links">
+            <a href="html/faq.html" class="footer__link">よくある質問</a>
+            <a href="html/contact.html" class="footer__link">お問い合わせ</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 メディフットケア All Rights Reserved.</p>
+        <div class="footer__bottom-links">
+          <a href="html/privacy.html" class="footer__bottom-link">プライバシーポリシー</a>
+          <a href="html/contact.html" class="footer__bottom-link">お問い合わせ</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
